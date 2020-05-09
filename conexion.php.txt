@@ -1,0 +1,12 @@
+<?php
+Requiere_once "proceso.php";
+	$idcliente=$_post['id'];
+	$idproducto=$_post['producto'];
+	$cantidad=$_post['cantidad'];
+
+
+Call = "realizas_compra ('$idcliente', 'idproducto', cantidad)";
+
+
+?>
+
